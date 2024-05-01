@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 1024">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #dcbec5;
+      }
+
+      .cls-2 {
+        letter-spacing: .25em;
+      }
+
+      .cls-3 {
+        font-size: 39.5px;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #91717b;
+        font-family: Poppins-Bold, 'Poppins Bold';
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        letter-spacing: .31em;
+      }
+
+      .cls-6 {
+        letter-spacing: .3em;
+      }
+
+      .cls-7 {
+        letter-spacing: .3em;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #91717b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-9 {
+        letter-spacing: .23em;
+      }
+
+      .cls-4 {
+        font-size: 81.98px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="411.58" y="192" width="133.88" height="536"/>
+  <text class="cls-4" transform="translate(478.52 388.78)"><tspan class="cls-6" x="0" y="0">A</tspan><tspan class="cls-5" x="74.77" y="0">R</tspan><tspan class="cls-7" x="144.21" y="0">T &amp;</tspan><tspan class="cls-6"><tspan x="0" y="98.38">DESIGN</tspan></tspan><tspan class="cls-6"><tspan x="0" y="196.76">STUDIO</tspan></tspan></text>
+  <text class="cls-3" transform="translate(565.18 651.88)"><tspan class="cls-9" x="0" y="0">C</tspan><tspan class="cls-2" x="31.96" y="0">OWORKING</tspan></text>
+  <line class="cls-8" x1="478.52" y1="282.6" x2="926.6" y2="282.6"/>
+</svg>
