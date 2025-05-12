@@ -31,7 +31,6 @@
 #### Carrito de compras
 ![Carrito](./public/img/carrito-compra.png)
 
-*(Reemplazar por capturas reales si se desea)*
 
 ---
 
