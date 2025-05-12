@@ -1,4 +1,4 @@
-# GuitarLA TS — Tienda de Guitarras con React + useReducer
+# Art & Desing Studio — Tienda de Muebles con React + useReducer
 
 ![Status](https://img.shields.io/badge/status-live-success?style=flat-square)
 ![React](https://img.shields.io/badge/frontend-React-blue?style=flat-square)
@@ -10,17 +10,17 @@
 
 ## 📄 Descripción
 
-**GuitarLA TS** es una tienda de muebles desarrollada con **React + TypeScript**, utilizando una arquitectura modular y `useReducer` para la gestión del estado. Permite a los usuarios explorar productos, añadirlos al carrito, modificar cantidades y vaciarlo. El uso de `useReducer` centraliza la lógica del carrito, mejora el mantenimiento y simplifica el flujo de datos.
+**Art & Desing Studio** es una tienda de muebles desarrollada con **React + TypeScript**, utilizando una arquitectura modular y `useReducer` para la gestión del estado. Permite a los usuarios explorar productos, añadirlos al carrito, modificar cantidades y vaciarlo. El uso de `useReducer` centraliza la lógica del carrito, mejora el mantenimiento y simplifica el flujo de datos.
 
 ---
 
 ## 🖼️ Capturas
 
 #### Lista de productos
-![Productos](./src/assets/preview-guitars.webp)
+![Productos](./public/img/e-comerce.png)
 
 #### Carrito de compras
-![Carrito](./src/assets/preview-cart.webp)
+![Carrito](./public/img/carrito-compra.png)
 
 *(Reemplazar por capturas reales si se desea)*
 
