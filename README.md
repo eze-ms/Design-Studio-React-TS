@@ -90,7 +90,7 @@ git clone https://github.com/eze-ms/Design-Studio-React-TS
 
 ```
 
-### Instalar dependencias del backend
+### Instalar dependencias
 ```bash
 npm install
 ```
