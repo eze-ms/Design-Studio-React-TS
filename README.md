@@ -12,6 +12,15 @@
 
 **Art & Desing Studio** es una tienda de muebles desarrollada con **React + TypeScript**, utilizando una arquitectura modular y `useReducer` para la gestión del estado. Permite a los usuarios explorar productos, añadirlos al carrito, modificar cantidades y vaciarlo. El uso de `useReducer` centraliza la lógica del carrito, mejora el mantenimiento y simplifica el flujo de datos.
 
+
+
+---
+
+## 🌐 Demo
+
+🔗 [art-design-studio.app](https://art-design-studio.netlify.app/)
+
+
 ---
 
 ## 🖼️ Capturas
