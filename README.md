@@ -1,30 +1,96 @@
-# React + TypeScript + Vite
+# GuitarLA TS — Tienda de Guitarras con React + useReducer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Status](https://img.shields.io/badge/status-live-success?style=flat-square)
+![React](https://img.shields.io/badge/frontend-React-blue?style=flat-square)
+![TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6?style=flat-square)
+![State](https://img.shields.io/badge/state-useReducer-lightgrey?style=flat-square)
+![Styling](https://img.shields.io/badge/styling-CSS-blueviolet?style=flat-square)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📄 Descripción
 
-## Expanding the ESLint configuration
+**GuitarLA TS** es una tienda de muebles desarrollada con **React + TypeScript**, utilizando una arquitectura modular y `useReducer` para la gestión del estado. Permite a los usuarios explorar productos, añadirlos al carrito, modificar cantidades y vaciarlo. El uso de `useReducer` centraliza la lógica del carrito, mejora el mantenimiento y simplifica el flujo de datos.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## 🖼️ Capturas
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+#### Lista de productos
+![Productos](./src/assets/preview-guitars.webp)
+
+#### Carrito de compras
+![Carrito](./src/assets/preview-cart.webp)
+
+*(Reemplazar por capturas reales si se desea)*
+
+---
+
+## ✨ Funcionalidades
+
+- Visualización de guitarras con imágenes dinámicas
+- Agregar guitarras al carrito
+- Incrementar/disminuir cantidades por producto
+- Eliminar productos individualmente
+- Vaciar carrito completo
+- Cálculo automático del total a pagar
+- Diseño responsive con estilos CSS propios
+
+---
+
+## 💻 Tecnologías Utilizadas
+
+- **React 18**
+- **TypeScript**
+- **useReducer** (estado global del carrito)
+- **CSS tradicional**
+- **Vite**
+
+---
+
+## 📋 Requisitos
+
+- Node.js v18 o superior
+- Navegador moderno (Chrome, Firefox, etc.)
+- Git
+
+---
+
+## 🧱 Estructura del Proyecto
+
+```bash
+GuitarLA-TS/
+├── src/
+│   ├── componentes/           # Componentes UI (Header, Guitar)
+│   ├── data/                  # Catálogo de productos
+│   ├── reducers/              # useReducer (cart)
+│   ├── types/                 # Tipos personalizados
+│   ├── App.tsx / main.tsx     # Entry points
+│   └── App.css / index.css    # Estilos globales
+├── vite.config.ts
+├── tsconfig.json
+
+
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+---
+
+## 🛠️ Instalación
+
+```bash
+git clone https://github.com/eze-ms/Design-Studio-React-TS
+
+```
+
+### Instalar dependencias del backend
+```bash
+npm install
+```
+
+### Iniciar servidor
+```bash
+npm run dev
+```
+---
+
+© 2024. Proyecto desarrollado por Ezequiel Macchi Seoane
